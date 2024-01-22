@@ -8,7 +8,7 @@
     <!-- tailwind and daisyui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- talwind customization  -->
+    <!-- tailwind customization  -->
     <script>
         tailwind.config = {
             theme: {
@@ -25,7 +25,7 @@
     <!--font awsome icons -->
     <script src="https://kit.fontawesome.com/eae2dd41b9.js" crossorigin="anonymous"></script>
 
-    <!-- fonts -->
+    <!-- fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
@@ -39,7 +39,7 @@
 </head>
 
 <body class="font-manrope">
-    <header class="container mx-auto px-4">
+    <header class="container mx-auto w-[90%]">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -53,7 +53,8 @@
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Home</a></li>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <li><a class="text-yellow-500">Home</a></li>
                             <li><a>About</a></li>
                             <li><a>Pages</a></li>
                             <li><a>Blog</a></li>
@@ -64,15 +65,17 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
+
+                        <li><a class="text-yellow-500">Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Pages</a></li>
                         <li><a>Blog</a></li>
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end">
-                    <a class="btn bg-btn-color text-white">Get Ticket</a>
+                <div class="navbar-end gap-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a class="btn bg-btn-color bg-yellow-500 text-white">Get Ticket</a>
                 </div>
             </div>
         </nav>
@@ -142,43 +145,47 @@
         <section class="mt-24 ">
             <div class="text-center">
                 <h2 class="text-4xl font-extrabold">Professional Hockeys Club</h2>
-            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
-                nullam proin. </p>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit
+                    nullam proin. </p>
             </div>
             <div class="flex flex-col gap-4">
                 <div class="flex flex-col md:flex-row lg:flex-row mt-10 gap-4">
-                    <div class="hero rounded-2xl" style="background-image: url(images/2.png);">
+                    <div class="hero rounded-2xl" style="background-image: url(./images/2.png);">
                         <div class="hero-overlay rounded-2xl bg-opacity-60"></div>
                         <div class="text-neutral-content">
-                          <div class="px-8 pb-8 pt-24">
-                            <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
-                            <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                            <button class="btn btn-error">Get Started</button>
-                          </div>
+                            <div class="px-8 pb-8 pt-24">
+                                <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
+                                <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
+                                    Tortor congue sed et in.</p>
+                                <button class="btn btn-error">Get Started</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="hero rounded-2xl" style="background-image: url(images/3.png);">
+                    <div class="hero rounded-2xl" style="background-image: url(./images/3.png);">
                         <div class="hero-overlay rounded-2xl bg-opacity-60"></div>
                         <div class="text-neutral-content">
-                          <div class="px-8 pb-8 pt-24">
-                            <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
-                            <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                            <button class="btn btn-error">Get Started</button>
-                          </div>
+                            <div class="px-8 pb-8 pt-24">
+                                <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
+                                <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
+                                    Tortor congue sed et in.</p>
+                                <button class="btn btn-error">Get Started</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="hero rounded-2xl" style="background-image: url(images/4.png);">
+                <div class="hero rounded-2xl" style="background-image: url(./images/4.png);">
                     <div class="hero-overlay rounded-2xl bg-opacity-60"></div>
                     <div class="text-neutral-content">
-                      <div class=" px-8 pb-8 pt-24">
-                        <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
-                        <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                        <button class="btn btn-error">Get Started</button>
-                      </div>
+                        <div class=" px-8 pb-8 pt-24">
+                            <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
+                            <p class="mb-5">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                                congue sed et in.</p>
+                            <button class="btn btn-error">Get Started</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -186,19 +193,214 @@
         <section class="mt-24 ">
             <div class="text-center">
                 <h2 class="text-4xl font-extrabold">Our New Products</h2>
-            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin. </p>
             </div>
-            <div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2">
                 <div class="">
+                    <!-- card1 -->
                     <div class="hero-content flex-col lg:flex-row">
-                      <img src="images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
-                      <div>
-                        <h1 class="text-xl font-bold">World Cup Flags Football</h1>
-                        <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button class="btn btn-primary">Get Started</button>
-                      </div>
+                        <img src="images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                <p>5.0</p>
+                                <i class="fa-regular fa-eye" style="color: #a8aaad;"></i>
+                                <p>20</p>
+                                <i class="fa-regular fa-heart" style="color: #a8aaad;"></i>
+                                <p>200</p>
+                            </div>
+                            <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                            <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                            <div class="flex">
+                                <h6>Price - $22.00</h6>
+                                <i class="fa-thin fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                    <!-- card2 -->
+                    <div class="hero-content flex-col lg:flex-row">
+                        <img src="images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                <p>5.0</p>
+                                <i class="fa-regular fa-eye" style="color: #a8aaad;"></i>
+                                <p>20</p>
+                                <i class="fa-regular fa-heart" style="color: #a8aaad;"></i>
+                                <p>200</p>
+                            </div>
+                            <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                            <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                            <div class="flex">
+                                <h6>Price - $22.00</h6>
+                                <i class="fa-thin fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card3 -->
+                    <div class="hero-content flex-col lg:flex-row">
+                        <img src="images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                <p>5.0</p>
+                                <i class="fa-regular fa-eye" style="color: #a8aaad;"></i>
+                                <p>20</p>
+                                <i class="fa-regular fa-heart" style="color: #a8aaad;"></i>
+                                <p>200</p>
+                            </div>
+                            <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                            <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                            <div class="flex">
+                                <h6>Price - $22.00</h6>
+                                <i class="fa-thin fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <!-- card1 -->
+                    <div class="hero-content flex-col lg:flex-row">
+                        <img src="images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                <p>5.0</p>
+                                <i class="fa-regular fa-eye" style="color: #a8aaad;"></i>
+                                <p>20</p>
+                                <i class="fa-regular fa-heart" style="color: #a8aaad;"></i>
+                                <p>200</p>
+                            </div>
+                            <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                            <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                            <div class="flex">
+                                <h6>Price - $22.00</h6>
+                                <i class="fa-thin fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card2 -->
+                    <div class="hero-content flex-col lg:flex-row">
+                        <img src="images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                <p>5.0</p>
+                                <i class="fa-regular fa-eye" style="color: #a8aaad;"></i>
+                                <p>20</p>
+                                <i class="fa-regular fa-heart" style="color: #a8aaad;"></i>
+                                <p>200</p>
+                            </div>
+                            <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                            <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                            <div class="flex">
+                                <h6>Price - $22.00</h6>
+                                <i class="fa-thin fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card3 -->
+                    <div class="hero-content flex-col lg:flex-row">
+                        <img src="images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+                        <div class="space-y-2">
+                            <div class="flex gap-2 items-center">
+                                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                <p>5.0</p>
+                                <i class="fa-regular fa-eye" style="color: #a8aaad;"></i>
+                                <p>20</p>
+                                <i class="fa-regular fa-heart" style="color: #a8aaad;"></i>
+                                <p>200</p>
+                            </div>
+                            <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                            <p class="">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                            <div class="flex">
+                                <h6>Price - $22.00</h6>
+                                <i class="fa-thin fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section class="mt-24 ">
+            <div class="text-center">
+               <hr>
+                <h2 class="text-4xl font-extrabold">Our New Products</h2>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin. </p>
+               <hr>
+            </div>
+            <div class="mt-12">
+                <div class="hero-content flex-col lg:flex-row">
+                    <img src="images/11.png" class="rounded-lg shadow-2xl" />
+                    <div>
+                        <div class="collapse collapse-plus">
+                            <input type="radio" name="my-accordion-3" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">
+                                Our Equipment
+                            </div>
+                            <div class="collapse-content">
+                                <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis
+                                    turpis in magna.</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-medium">
+                                Hockey Training
+                            </div>
+                            <div class="collapse-content">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-medium">
+                                Private Lessons
+                            </div>
+                            <div class="collapse-content">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-medium">
+                                Ski Touring
+                            </div>
+                            <div class="collapse-content">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-medium">
+                                Booking
+                            </div>
+                            <div class="collapse-content">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-plus">
+                            <input type="radio" name="my-accordion-3" />
+                            <div class="collapse-title text-xl font-medium">
+                                Pricings
+                            </div>
+                            <div class="collapse-content">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
